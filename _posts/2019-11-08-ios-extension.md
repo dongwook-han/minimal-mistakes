@@ -29,7 +29,7 @@ toc: true
   3. app extension 코드 실행
   4. 시스템이 app extension 종료
 
-<img src="../assets/png/extension_9.png" width="400px"/>
+<img src="/assets/png/extension_9.png" width="400px"/>
 
 
 
@@ -43,7 +43,7 @@ toc: true
 >
 > Host App : 익스텐션을 호출한 앱
 
-<img src="../assets/png/extension_2.png" width="500px"/>
+<img src="/assets/png/extension_2.png" width="500px"/>
 
 #### 앱과 익스텐션 간 데이터 공유 방법
 
@@ -53,7 +53,7 @@ Today 익스텐션 처럼 Containing App 번들에 포함되어 있는 구조지
 
 공유되는 데이터를 읽고쓰는 경우 동기화(synchronization) 가 필수적이다. 
 
-<img src="../assets/png/extension_3.png" width="500px"/>
+<img src="/assets/png/extension_3.png" width="500px"/>
 
 
 
@@ -67,7 +67,7 @@ extension target 을 선택하고 동일한 컨테이너에 체크한다.
 
 이로써, containing app 과 extension app 은 하나의 app group에 속하게 되어 데이터를 공유할 수 있다. 
 
-<img src="../assets/png/extension_1.png" width="600px"/>
+<img src="/assets/png/extension_1.png" width="600px"/>
 
 1. NSUserDefaults
 
@@ -202,7 +202,7 @@ didSelectPost() 함수는 화면 상단 [Post] 버튼을 눌렀을 때 동작 (U
 
   
 
-  <img src="../assets/png/extension_15.png" width="500px"/>
+  <img src="/assets/png/extension_15.png" width="500px"/>
 
   또한, UNUserNotificationCenter 사용 시 앱 실행중에도 상단 알림바에 푸쉬내용을 표시할 수 있다. 
 
@@ -214,7 +214,7 @@ didSelectPost() 함수는 화면 상단 [Post] 버튼을 눌렀을 때 동작 (U
 
   
 
-  <img src="../assets/png/extension_14.png" width="500px"/>
+  <img src="/assets/png/extension_14.png" width="500px"/>
 
   iOS 9이상의 사파일에서 페이지를 불러오기 전에 컨텐츠 필터 기능을 할 수 있는 익스텐션
 
@@ -293,7 +293,7 @@ didSelectPost() 함수는 화면 상단 [Post] 버튼을 눌렀을 때 동작 (U
 
   
 
-  <img src="../assets/png/extension_13.png" width="500px"/>
+  <img src="/assets/png/extension_13.png" width="500px"/>
 
   메시지가 원하지 않는지 확인하기 위해 메시지 앱은 현재 활성화 된 메시지 필터 앱 확장을 실행하고 메시지를 쿼리한다.
 
@@ -305,7 +305,7 @@ didSelectPost() 함수는 화면 상단 [Post] 버튼을 눌렀을 때 동작 (U
 
   
 
-  <img src="../assets/png/extension_12.png" width="500px"/>
+  <img src="/assets/png/extension_12.png" width="500px"/>
 
   메시지앱을 나가지 않고도 다른 앱과 상호 작용할 수 있는 익스텐션
 
@@ -315,7 +315,7 @@ didSelectPost() 함수는 화면 상단 [Post] 버튼을 눌렀을 때 동작 (U
 
   
 
-  <img src="../assets/png/extension_8.png" width="500px"/>
+  <img src="/assets/png/extension_8.png" width="500px"/>
 
 수신자 전화번호를 식별하고 차단할 수 있는 익스텐션
 
@@ -325,7 +325,7 @@ didSelectPost() 함수는 화면 상단 [Post] 버튼을 눌렀을 때 동작 (U
 
 
 
-<img src="../assets/png/extension_11.png" width="500px"/>
+<img src="/assets/png/extension_11.png" width="500px"/>
 
 오디오 스트림을 생성하거나 호스트 앱에서 오디오 스트림을 수정할 수 있는  익스텐션
 
@@ -335,7 +335,7 @@ didSelectPost() 함수는 화면 상단 [Post] 버튼을 눌렀을 때 동작 (U
 
 
 
-<img src="../assets/png/extension_10.png" width="500px"/>
+<img src="/assets/png/extension_10.png" width="500px"/>
 
 익스텐션 Info.plist 파일에 RequestsOpenAccess 값(YES)을 변경하여 키보드 목록에 표시 할 수 있다. 
 
@@ -360,7 +360,7 @@ Containing app 안에 있는 파일을 Host app 이 조작할 수 있는 익스�
 
 
 
-<img src="../assets/png/extension_7.png" width="500px"/>
+<img src="/assets/png/extension_7.png" width="500px"/>
 
 단말 Photos 앱 실행 후 선택된 사진에서 편집 선택 후 photo Extension 을 사용할 수 있다.
 
@@ -400,7 +400,7 @@ PhotoKit 의 주요한 프레임웍은 2개가 있다. (Photo framework and Phot
 
 
 
-<img src="../assets/png/extension_6.png" width="500px"/>
+<img src="/assets/png/extension_6.png" width="500px"/>
 
 - TodayViewController : Today 익스텐션 화면 위젯을 나타내는 뷰컨트롤러에 대한 소스
 
@@ -447,7 +447,7 @@ Host app 에 있는 공유 버튼을 눌러 정보를 SNS 등으로 타 유저�
 
 
 
-<img src="../assets/png/extension_5.png" width="500px"/>
+<img src="/assets/png/extension_5.png" width="500px"/>
 
 액션을 선택하면 액션 전용 뷰컨트롤러가 열리는 개념이다.
 
