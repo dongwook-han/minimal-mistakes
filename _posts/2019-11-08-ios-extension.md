@@ -1,3 +1,11 @@
+---
+title: "iOS Extension"
+categories: 
+  - iOS, Extension
+last_modified_at: 2019-11-08T17:00:00+09:00
+toc: true
+---
+
 # Extension
 
 다른 앱이나 시스템과 상호 작용할 때 사용되며 (iOS 8+, 앱 to 앱 전환의 불편함 해소), 
