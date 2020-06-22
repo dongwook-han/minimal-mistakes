@@ -1,1 +1,5 @@
-# dongwookq's blog
+# minsone.github.io
+
+## License
+
+MIT
